@@ -92,3 +92,129 @@
     background: #FFF;
     border: none;
 }
+
+.advantages {
+    margin-top: 100px;
+    padding: 11px 393px;
+}
+
+.advantages-cards {
+    display: flex;
+    margin-top: 100px;
+    gap: 135px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #000;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.slider {
+    width: 40px;
+    height: 18px;
+    flex-shrink: 0;
+    background: url('../images/slider.png');
+    border: none;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+}
+
+.card-item img {
+    width: 136px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-bottom: 25px;
+}
+
+.about-us {
+    margin-top: 100px;
+    padding: 11px 393px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.about-us-label1 {
+    margin-top: 60px;
+}
+
+.about-us-label2 {
+    margin-top: 30px;
+    margin-bottom: 110px;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 94px;
+    background: #FFA019;
+    flex-shrink: 0;
+    padding: 11px 393px;
+}
+
+.newsletter span {
+    width: 275px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 110px;
+}
+
+.newsletter input {
+    color: #FFF;
+    width: 228px;
+    height: 47px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #FFA019;
+    outline: none;
+    padding: 14px;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+.newsletter button {
+    width: 228px;
+    height: 47px;
+    flex-shrink: 0;
+    background: #FFF;
+    border: none;
+}
+
+.features {
+    margin-top: 100px;
+    padding: 11px 393px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.features-lists {
+    display: flex;
+    gap: 150px;
+}
+
+.features-lists ul {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    list-style: none;
+}
