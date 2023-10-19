@@ -6,6 +6,10 @@
     color: black;
 }
 
+.container {
+    margin-top: 100px;
+    padding: 11px 393px;
+}
 
 .contact {
     display: flex;
@@ -93,11 +97,6 @@
     border: none;
 }
 
-.advantages {
-    margin-top: 100px;
-    padding: 11px 393px;
-}
-
 .advantages-cards {
     display: flex;
     margin-top: 100px;
@@ -141,8 +140,6 @@ h3 {
 }
 
 .about-us {
-    margin-top: 100px;
-    padding: 11px 393px;
     font-size: 20px;
     font-weight: 300;
 }
@@ -202,8 +199,6 @@ h3 {
 }
 
 .features {
-    margin-top: 100px;
-    padding: 11px 393px;
     font-size: 20px;
     font-weight: 300;
 }
@@ -217,4 +212,229 @@ h3 {
     margin-top: 60px;
     margin-bottom: 30px;
     list-style: none;
+}
+
+.catalog {
+    background: #FBFBFB;
+    padding-bottom: 50px;
+}
+
+.catalog-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.catalog-btn {
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 5px 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.catalog-btn:hover {
+    background: #FFA019;
+}
+
+.catalog-cards {
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.catalog-card {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.10);
+
+}
+
+.catalog-card img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.catalog-card-type {
+    color: white;
+    width: fit-content;
+    border-radius: 0px 15px 15px 0px;
+    padding: 5px 10px 5px 15px;
+    background: #FFA019;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.catalog-card-name {
+    width: 164px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 24px;
+    margin-right: 73px;
+    margin-top: 10px;
+}
+
+.catalog-card-cost {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 24px;
+    margin-bottom: 26px;
+    margin-top: 19px;
+}
+
+.consultants,
+.consultant-data,
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultants-cards,
+.consultant-card,
+.information-cards {
+    display: flex;
+}
+
+.consultants-cards {
+    margin-top: 60px;
+    gap: 56px;
+}
+
+.consultant-card img {
+    width: 164px;
+    height: 164px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.consultant-data {
+    padding-left: 30px;
+}
+
+.consultant-name {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.consultant-type {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.consultant-data button {
+    width: fit-content;
+    border-radius: 10px;
+    background: #FFA019;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+}
+
+.brands {
+    display: flex;
+    padding: 64px 55px;
+    background: #FBFBFB;
+    margin-top: 37px;
+}
+
+.brands h4 {
+    color: #9B9B9B;
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 75px;
+}
+
+.information-cards {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    gap: 30px;
+}
+
+.information-card {
+    position: relative;
+}
+
+.information-card img {
+    width: 261px;
+    height: 261px;
+}
+
+.information-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 261px;
+    height: 261px;
+    background: rgba(0, 0, 0, 0.40);
+}
+
+.information-card span {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+footer {
+    display: flex;
+    background: #F8F5F5;
+    gap: 250px;
+    padding: 100px 395px;
+}
+
+.first-text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-text-block span {
+    margin-top: 10px;
+    color: #8191A6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-copyright {
+    margin-top: 60px !important;
+}
+
+.second-text-block {
+    display: flex;
+    gap: 45px;
+}
+
+.second-text-block span {
+    color: #303842;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.second-text-block ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.second-text-block a {
+    color: #8191A6;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    white-space: nowrap;
 }
